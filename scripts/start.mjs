@@ -234,7 +234,7 @@ try {
 
   settings.superDocTitle ||= ''
   settings.superTitle ||= ''
-  //const defImgs = [
+  const defImgs = [
     //{
       //src: 'https://gcore.jsdelivr.net/gh/xjh22222228/nav-web@image/nav-1717494364392-ad.jpg',
       //url: 'https://haokawx.lot-ml.com/Product/index/454266',
@@ -243,7 +243,7 @@ try {
       //src: 'https://gcore.jsdelivr.net/gh/xjh22222228/public@gh-pages/img/10.png',
       //url: '',
     //},
-  //]
+  ]
   settings.superImages ??= defImgs
   settings.lightImages ??= defImgs
   if (!Array.isArray(settings.superImages)) {
